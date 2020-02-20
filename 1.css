@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div#carouselId {
+    width: 100%;
+    background-image: url(./img/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media screen and (max-width: 600px) {
+    div#carouselId {
+        width: 100%;
+        height: 200px;
+        background-color: white;
+        color: black;
+    }
+    .layer {
+        padding: 50px 0px;
+        border-bottom: 1px solid gray;
+        align-items: center;
+    }
+    .items-title {
+        font-size: 11px;
+    }
+    .items-news {
+        font-size: 10px;
+    }
+    #Sign-up {
+        font-size: 10px;
+    }
+}
+
+.item-layer {
+    width: 140px;
+    height: 140px;
+}
+
+.items {
+    padding-top: 50px;
+}
+
+.img-cart {
+    padding: 35px 0px;
+}
+
+.card-content {
+    padding: 0px 75px;
+}
+
+.footer {
+    padding: 25px 0px;
+}
+
+.shopping-cart {
+    padding-top: 50px;
+}
+
+.items {
+    padding-top: 50px;
+}
